@@ -1,0 +1,11 @@
+﻿<Window x:Class="MultiFunctionalApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Многофункциональное приложение" Height="200" Width="300">
+    <StackPanel>
+        <Button Name="TranslateButton" Content="Переводчик" Click="TranslateButton_Click" />
+        <Button Name="CalculatorButton" Content="Калькулятор" Click="CalculatorButton_Click" />
+        <Button Name="RangeButton" Content="Определение диапазона" Click="RangeButton_Click" />
+        <Button Name="SecretButton" Content="Секретное сообщение" Click="SecretButton_Click" />
+    </StackPanel>
+</Window>
